@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RNCategorySelectionView">
+            <rect key="frame" x="0.0" y="0.0" width="284" height="314"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRh-3K-m7u">
+                    <rect key="frame" x="0.0" y="2" width="80" height="90"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="SSf-9l-ohg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnn-1a-oW0">
+                    <rect key="frame" x="103" y="2" width="80" height="90"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="CPt-ta-Hgc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tr-ix-dsJ">
+                    <rect key="frame" x="204" y="2" width="80" height="90"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="jrW-A8-8NU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbU-Lz-ms4">
+                    <rect key="frame" x="0.0" y="112" width="80" height="90"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="N85-zy-q8b"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1008" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIb-wV-im4">
+                    <rect key="frame" x="98" y="111" width="92" height="92"/>
+                    <state key="normal" backgroundImage="categoryCenter.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="yjK-wC-4dD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1005" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLr-ZB-ekU">
+                    <rect key="frame" x="204" y="112" width="80" height="90"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="tx5-8A-fva"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1006" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRy-dg-paU">
+                    <rect key="frame" x="0.0" y="222" width="80" height="90"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="bq2-vc-7oN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1007" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxg-1m-reJ">
+                    <rect key="frame" x="103" y="222" width="80" height="90"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="FUm-8h-BVW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1009" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUZ-Fd-yc8">
+                    <rect key="frame" x="204" y="222" width="80" height="90"/>
+                    <state key="normal" backgroundImage="categoryMyFavorite.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="categoryBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="MDZ-6p-hsK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="categoryBtn1" destination="FRh-3K-m7u" id="Xex-gY-d3y"/>
+                <outlet property="categoryBtn2" destination="hnn-1a-oW0" id="uyX-Dr-Nkw"/>
+                <outlet property="categoryBtn3" destination="2tr-ix-dsJ" id="1Ay-6P-thY"/>
+                <outlet property="categoryBtn4" destination="CbU-Lz-ms4" id="zbX-On-uu6"/>
+                <outlet property="categoryBtn5" destination="zIb-wV-im4" id="YWp-PA-VUO"/>
+                <outlet property="categoryBtn6" destination="iLr-ZB-ekU" id="EHJ-bL-BoU"/>
+                <outlet property="categoryBtn7" destination="oRy-dg-paU" id="t9y-Kd-PAQ"/>
+                <outlet property="categoryBtn8" destination="Mxg-1m-reJ" id="lAg-aN-sPV"/>
+                <outlet property="categoryBtn9" destination="EUZ-Fd-yc8" id="mmM-rn-u0f"/>
+            </connections>
+            <point key="canvasLocation" x="335.5" y="104.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="gEz-Bo-rnG" customClass="CategoryIntroductionView">
+            <rect key="frame" x="0.0" y="0.0" width="137" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="categoryIntroduction.png" translatesAutoresizingMaskIntoConstraints="NO" id="oe5-GM-Sy4">
+                    <rect key="frame" x="0.0" y="0.0" width="137" height="29"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="175.5" y="412.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="E1A-TB-lM8" customClass="NextCategoryGroupsView">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nextCategoryGroupImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ddk-xa-NPp">
+                    <rect key="frame" x="0.0" y="0.0" width="90" height="35"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="393" y="415"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="categoryCenter.png" width="92" height="92"/>
+        <image name="categoryIntroduction.png" width="137" height="29"/>
+        <image name="categoryMyFavorite.png" width="82" height="90"/>
+        <image name="nextCategoryGroupImg.png" width="90" height="35"/>
+    </resources>
+</document>

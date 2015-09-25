@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  RightNow
+//
+//  Created by 薄荷 on 15/4/11.
+//  Copyright (c) 2015年 薄荷. All rights reserved.
+//
+
+#ifndef RightNow_PrefixHeader_pch
+#define RightNow_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#import "MyConstant.h"
+#import "UIView+MyLocation.h"
+#import "UIButton+AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+#import "AFNetworking.h"
+#import "RNHttpRequest.h"
+#import "RNBaseViewController.h"
+#import "MBProgressHUD.h"
+#import "RNSpringAnimationManager.h"
+#import "MyUtils.h"
+#import "POP.h"
+#endif
+
+#endif
